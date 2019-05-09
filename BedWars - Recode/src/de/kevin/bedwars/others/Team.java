@@ -24,6 +24,7 @@ public class Team implements Comparable<Team> {
 		this.name = name;
 		teamMembers = new ArrayList<Player>();
 		members = new ArrayList<Player>();
+		teams.add(this);
 	}
 	
 	public String getName() {

@@ -8,6 +8,7 @@ import de.kevin.bedwars.others.ConfigLocationUtil;
 public class Main extends JavaPlugin {
 	
 	private static Main plugin;
+	public final String PREFIX = "§7[§3BedWars§7]§3 ";
 	private GameStateManager gameStateManager;
 	private int maxTeams;
 	private int maxTeamSize;
